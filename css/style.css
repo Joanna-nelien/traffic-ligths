@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.traffic-light{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.light-red{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 10px darkred;
+}
+
+.light-yellow{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border: 10px darkgoldenrod
+}
+
+.light-green{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border: 10px darkgreen
+}
