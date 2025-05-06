@@ -10,28 +10,29 @@ body{
 }
 
 .traffic-light{
+    height:80%;
     display: flex;
+    justify-content: space-around;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .light-red{
     width: 200px;
     height: 200px;
     background-color: red;
-    border: 10px darkred;
+    border: 10px solid darkred;
 }
 
 .light-yellow{
     width: 200px;
     height: 200px;
     background-color: yellow;
-    border: 10px darkgoldenrod
+    border: 10px solid gold;
 }
 
 .light-green{
     width: 200px;
     height: 200px;
     background-color: green;
-    border: 10px darkgreen
+    border: 10px solid darkgreen;
 }
